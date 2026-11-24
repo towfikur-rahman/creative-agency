@@ -1,0 +1,202 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* header section start */
+    #navbar {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.navbar-nav .nav-item .nav-link {
+text-align: center;
+
+
+
+}
+
+.navbtn{
+     text-align: center;
+     
+}
+.navbar-toggler{
+    color:#5956E8;
+}
+    /* /* header section end *
+     */
+/* banner section start */
+
+.bannertext {
+    padding-top:60px;
+    padding-bottom:60px;
+
+}
+.bannertext h1 {
+    font-size: 46px;
+    line-height: 57px;
+  /* text-align: center; */
+}
+
+.bannertext p {
+    margin-bottom: 23px;
+    width: 488px;   
+}
+
+.bannerimg {
+    padding:50px 0;
+
+}
+/* banner section end */
+
+
+
+/* service star */
+.servicetext {
+    margin-top: 40px;
+}
+
+.servicetext h3 {
+    font-size: 33px;
+  
+}
+.servicetext p {
+   
+    width: 488px;
+
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 15px;
+
+}
+.scardbottom {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.card-body {
+    margin-left: 30px;
+    margin-bottom: 30px;
+
+}
+.card{
+    margin-top: 15px;
+}
+/* service end */
+/* portfilio section start */
+.portfoliotext h3 {
+   font-size: 33px;
+    margin-top: 40px;
+}
+.portfoliotext p {
+ 
+    width: 488px;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 15px;
+
+}
+.portimg{
+   margin-top: 15px;
+}
+.portbtm{
+    margin-top: 15px;
+}
+/* portfilio section end */
+/* member style start */
+.membertext h3 {
+    font-size: 33px;
+    margin-top:40px;
+}
+
+.membertext p {
+    width:488px;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 30px;
+}
+.membercard {
+ margin-top: 15px;
+}
+/* member style end */
+
+/* customer style start */
+.customertop h2 {
+    font-size: 33px;
+    margin-top: 40px;
+}
+.customertop p {
+  width: 488px;
+
+    margin-top: 6px;
+    margin-bottom: 15px;
+}
+.cuscard{
+margin-top: 15px;
+}
+
+/* customer style end */
+
+/*letest style start  */
+.lettext h3{
+  font-size: 33px;
+    margin-top: 40px;
+}
+.lettext p{
+    width: 488px;
+    margin-top: 6px;
+    margin-bottom:15px;
+
+}
+.testcard{
+margin-top: 15px;}
+.testcard img{
+    margin-left: 2%;
+    width: 95%;
+}
+
+/*letest style end */
+
+
+/* footer style start */
+
+#fotter{
+    background-color: rgba(89, 86, 232, 0.103);
+    margin-top: 40px
+}
+.footsecond{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.footleft{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.footsecond h3{
+  font-size: 33px;
+}
+.footsecond p{
+    margin-top: 6px;
+}
+.footsecond .fotbt{
+    text-align: center;
+    
+}
+/* footer style end */
+
+
+
+
+
+
+
+
+
+ }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {  }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {  }
+

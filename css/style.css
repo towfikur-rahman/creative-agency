@@ -1,0 +1,464 @@
+/* all common css start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Inter", sans-serif;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+/* all common css end */
+/* header style start */
+#navbar {
+    margin-top: 33px;
+    margin-bottom: 35px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #181818;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #5956E8;
+
+
+}
+
+.navbtn a {
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #5956E8;
+    border-radius: 10px;
+    padding: 13px 24px;
+}
+
+/* header style end */
+/* banner section start */
+#banner {
+    background-color: #5956E8;
+}
+
+.bannertext {
+    padding-top: 237px;
+    padding-bottom: 239px;
+}
+
+.bannertext h1 {
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 80px;
+    color: #ffff;
+}
+
+.bannertext p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #ffff;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    width: 542px;
+}
+
+.banerbtn a {
+    color: #5956E8;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 13px 22px;
+    border-radius: 10px;
+    background-color: #ffff;
+}
+
+.bannerimg {
+    padding: 182px 0;
+}
+
+/* banner section end */
+/* service style start */
+.servicetext {
+    margin-top: 100px;
+}
+
+.servicetext h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #181818;
+    text-align: center;
+
+}
+
+.servicetext p {
+    line-height: 27px;
+    color: rgba(24, 24, 24, 0.705);
+    width: 542px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+.scardimg {
+    margin-left: 48px;
+    margin-top: 63px;
+    margin-bottom: 30px;
+
+
+}
+
+.card-body h4 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #181818;
+
+}
+
+.card-body p {
+    line-height: 27px;
+    color: rgba(24, 24, 24, 0.705);
+    margin-top: 20px;
+    margin-bottom: 63px;
+    width: 274px;
+
+}
+
+.card-body {
+    margin-left: 30px;
+    margin-bottom: 63px;
+
+}
+
+.card {
+    transition: 0.4s;
+    border-radius: 10px;
+
+}
+
+.card:hover {
+    box-shadow: 0px 0px 37px 0px rgba(0, 0, 0, 0.7);
+    transform: translateY(-5px);
+
+}
+
+.card:hover.scardimg svg path {
+    fill: #5956E8;
+    stroke: #FFFFFF;
+}
+
+.scardbottom {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+/* service style end */
+/* portfolio style start */
+.portfoliotext h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #181818;
+    text-align: center;
+
+}
+
+.portfoliotext p {
+    line-height: 27px;
+    color: rgba(24, 24, 24, 0.705);
+    width: 542px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+.portimg img {
+    width: 100%;
+
+}
+.portimg{
+    position: relative;
+    transition: 0.5s;
+}
+
+.porttext h4 {
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+
+}
+
+.porttext a {
+    color: #ffff;
+    line-height: 27px;
+    
+}
+
+.porttext{
+ position: absolute;
+ bottom: 43px;
+
+ left: 50px;
+
+ background-color: #5956E8;
+ padding: 25px 40px;
+ border-radius: 10px;
+ display: none;
+
+}
+.portimg:hover .porttext{
+    display: block;
+    z-index: 100;
+}
+.portbtm{
+    margin-top: 50px;
+}
+/* portfolio style end */
+/* member style start */
+.membertext h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #181818;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.membertext p {
+    line-height: 27px;
+    color: rgba(24, 24, 24, 0.705);
+    width: 542px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.membercard {
+    position: relative;
+    transition: 0.5s;
+}
+
+.memcardtext {
+    display: none;
+    position: absolute;
+    top: 356px;
+    bottom: 30px;
+    left: 118px;
+    right: 118px;
+}
+
+.memcardtext h4 {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.memcardtext h5 {
+    /* font-size: 15px; */
+    line-height: 5px;
+    text-align: center;
+    
+    
+
+}
+
+.membercard:hover .memcardtext {
+    color: #FFFFFF;
+
+    z-index: 100;
+    display: block;
+}
+
+.membercard:hover .memoverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 3%;
+    right: 0%;
+    background-image: url(../images_member/Rectangle\ 20\ \(9\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 94%;
+
+}
+
+/* member style end */
+/* customer style start */
+.customertop h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #181818;
+    width: 603px;
+    margin-top: 142px;
+}
+
+.customertop p {
+
+    line-height: 27px;
+    color: rgba(24, 24, 24, 0.705);
+    width: 542px;
+
+
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.cuscard{
+    border: 1px solid #ece6e6;
+    border-radius: 10px;
+    width: 98%;
+    transition: 0.5s;
+
+
+}
+.cuscard:hover{
+   box-shadow: 0px 0px 37px 0px rgba(0, 0, 0, 0.7);
+    transform: translateY(-5px);
+     border: 1px solid #FFFFFF;
+
+}
+.cuscardimg{
+    margin-top: 48px;
+    margin-left: 48px;
+}
+.cuscardbootom{
+    margin-left: 48px;
+    margin-bottom: 48px;
+}
+.cuscardbootom p{
+    width: 274px;
+}
+.cuscardbootom img{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.cuscardbootom h5{
+    color: #181818;
+    line-height: 27px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.cuscardbootom h6{
+    color: #5D5D5D;
+    line-height: 27px;
+    margin-top: 2px;
+    
+}
+
+/* customer style end */
+/*letest style start  */
+.lettext h3{
+    
+  font-size: 40px;
+    font-weight: 700;
+    color: #181818;
+    text-align: center;
+    margin-top: 100px;
+   
+}
+.lettext p{
+      line-height: 27px;
+    color: rgba(24, 24, 24, 0.705);
+    width: 542px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+.testcard{
+    border: 0.2px solid #5d5d5d91;
+    width: 98%;
+    border-radius: 10px;
+ transition: 0.5s;
+}
+.testcard:hover{
+     box-shadow: 0px 0px 37px 0px rgba(0, 0, 0, 0.7);
+    transform: translateY(-5px);
+     border: 1px solid #FFFFFF;
+
+}
+.testcard img{
+   width: 95%;
+   margin-left: 2%;
+   margin: 2% ;
+    
+
+
+    align-items: center;
+}
+.letesbottom h4{
+    width: 271px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #181818;
+
+}
+.letesbottom p{
+    width: 300px;
+    color: #5D5D5D;
+
+}
+.letesbottom{
+    margin-left: 8%;
+    margin-bottom: 40px;
+   
+ 
+}
+
+/*letest style end */
+/* fotter style start */
+.footleft p{
+ width: 300px;
+ margin:15px 0px;
+       line-height: 27px;
+    color: rgba(24, 24, 24, 0.705);
+}
+#fotter{
+    background-color: rgba(89, 86, 232, 0.103);
+    margin-top: 100px
+}
+.footsecond{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.footleft{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.footsecond h3{
+    
+  font-size: 40px;
+    font-weight: 700;
+    color: #181818;
+    text-align: center;
+
+   
+}
+.footsecond p{
+      line-height: 27px;
+    color: rgba(24, 24, 24, 0.705);
+    margin-top: 15px;
+  
+    
+
+    
+
+}
+/* fotter style end */
